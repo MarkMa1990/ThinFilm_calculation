@@ -30,6 +30,14 @@ swig -python -c++ pymultilayer.i
 python setup.py build_ext --inplace
 ```
 
+#### run test.py
+```shell
+python test.py
+```
+<p align="center">
+<img src="https://github.com/MarkMa1990/ThinFilm_calculation/blob/master/setupPy/results.png" width="70%" height="70%">
+</p>
+
 ### Python example: a 100nm thin layer (index 2.22) sandwitched with air (index 1) and glass (index 1.52)
 
 =======
